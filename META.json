@@ -1,0 +1,49 @@
+{
+   "abstract" : "uses the DateTime roles for testing",
+   "author" : [
+      "Harold Frayman <harold.frayman@theguardian.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 6.031, CPAN::Meta::Converter version 2.150010",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : 2
+   },
+   "name" : "Halx-Role-DateTime",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Halx::DateFormat" : "0",
+            "Halx::Type::DateTime" : "0",
+            "Moose" : "0",
+            "Moose::Role" : "0",
+            "Moose::Util::TypeConstraints" : "0",
+            "MooseX::Getopt" : "0",
+            "MooseX::Role::Parameterized" : "0",
+            "namespace::autoclean" : "0",
+            "perl" : "5.016",
+            "warnings" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0",
+            "strict" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "version" : "0.0.2",
+   "x_generated_by_perl" : "v5.38.2",
+   "x_serialization_backend" : "Cpanel::JSON::XS version 4.37",
+   "x_spdx_expression" : "Artistic-1.0-Perl OR GPL-1.0-or-later"
+}
+
